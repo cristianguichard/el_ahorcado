@@ -35,7 +35,8 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;   
+    text-align: center;
+    
 }
 .instrucciones h1{
     margin-bottom: 20px;
@@ -47,7 +48,9 @@ button:hover{
     padding: 20px;
 }
 .lista{
-    justify-items: auto;
+    display: flex;
+    justify-content: center;
+ text-align: justify;
     color: var(--color-principal);
 } 
 
@@ -148,10 +151,12 @@ align-items: flex-end;
 .redes{
     display: flex;
     height: 100px;
+    list-style-type: none;
    
 }
 .redes img{
-    width: 40px;
+    width: 30px;
+    margin: 5px 20px 0 20px;
 }
 @media screen and (max-width :600px){
     .vector-botones{
